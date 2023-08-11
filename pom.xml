@@ -36,7 +36,19 @@
             <groupId>com.draftable.api.client</groupId>
             <artifactId>draftable-compare-api</artifactId>
             <version>1.2.0</version>
+            <!--<exclusions>
+                <exclusion>
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>-->
         </dependency>
+
+        <!--<dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.14</version>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
